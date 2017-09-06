@@ -1,0 +1,9 @@
+version: '2'
+services:
+  cheatsheet:
+    build: .
+    image: mansonjesus/cheatsheets
+    ports:
+      - 80:4567
+    volumes:
+      - ./web:/web
