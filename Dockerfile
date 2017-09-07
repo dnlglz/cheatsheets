@@ -9,7 +9,7 @@ RUN echo "Europe/Madrid" > /etc/timezone && \
 	dpkg-reconfigure -f noninteractive tzdata
 
 COPY entrypoint.sh /usr/local/bin
-COPY web/Gemfile* /tmp
+COPY web/Gemfile* /tmp/
 
 RUN cd /tmp && bundle install
 
