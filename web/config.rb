@@ -31,3 +31,7 @@ configure :build do
   activate :relative_assets
 
 end
+
+configure :development do
+    activate :livereload
+end
