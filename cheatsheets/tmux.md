@@ -32,7 +32,7 @@
 
 ## Buffers
 - Enter copy mode
-    > C-b [ / C-b <enter>
+    > C-b [ / C-b \<enter\>
 - Start marking
     > C-space
 - Copy
@@ -46,7 +46,7 @@
 
 ## Other
 - Show time
-    > C-b t
+    > C-b t\
     > C-b :clock-mode
 - Show previous messages
     > C-b ~
@@ -55,13 +55,13 @@
 
 ## Monitoring
 - Monitor for activity in the window
-    > C-b :setw visual-activity [ on | off ]
+    > C-b :setw visual-activity [ on | off ]\
     > C-b :setw monitor-activity [ on | off ]
 - Highlight when a <pattern> appears in window
-    > C-b :setw visual-content [ on | off ]
+    > C-b :setw visual-content [ on | off ]\
     > C-b :setw monitor-content <patern>
 - Monitor for <interval> of time of silence
-    > C-b :setw visual-silence [ on | off ]
+    > C-b :setw visual-silence [ on | off ]\
     > C-b :setw monitor -silence <interval>
 - Select next window with bell 
     > C-b M-n
@@ -82,7 +82,7 @@
 - Kill current pane
     > C-b x
 - Resize pane
-    > C-b :resize-pane -t <pane> -x <width> -y <height>
+    > C-b :resize-pane -t \<pane\> -x \<width\> -y \<height\>
 - Swap the current pane with de previous one
     > C-b {
 - Swap the current pane with de next one
@@ -90,13 +90,13 @@
 - Break the curren pane out of the window
     > C-b !
 - Rearrange layout: even-horizontal, even-vertical, main-horizontal, main-vertical, tiled 
-    > C-b M-1 to M5
+    > C-b M-1 to M-5
 - Change active pane
-    > C-b <arrows>
+    > C-b \<arrows\>
 - Resize pane
-    > C-b C-<arrows>
+    > C-b C-\<arrows\>
 - Resize pane in steps of five cells
-    > C-b M-<arrows>
+    > C-b M-\<arrows\>
 - Rotate panes in current window
     > C-b C-o
 - Rotate panes in current window backwards
@@ -138,11 +138,11 @@
 
 ## Commands
 - Move window into a new pane 
-    > C-b :joinp -s :<index>
+    > C-b :joinp -s :\<index\>
 - Move current pane into new one in window <index>
     > C-b :joinp -t :1
 - Execute command in pane <index>
-    > tmux send-keys -t "<index>" C-z '<com>' Enter
+    > tmux send-keys -t "\<index\>" C-z '\<com\>' Enter
 - Activate mouse
     > C-b :set -g mode-mouse on
 - Allow mouse resize panes
@@ -150,4 +150,4 @@
 - Allow mouse select pane
     > C-b :set -g mouse-select-pane on
 - Allow mouse select window
-    > C-b :set -g mouse-select-window on]
+    > C-b :set -g mouse-select-window on
