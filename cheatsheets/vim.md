@@ -20,304 +20,572 @@
 
 ## Movement
 - Left, down, up, right
-    > h, j, k, l
+    ```
+ h, j, k, l
+    ```
 - Start of next word [with / without punctuation]
-    > w / W
+    ```
+ w / W
+    ```
 - End next word [with / without punctuation]
-    > e / E
+    ```
+ e / E
+    ```
 - Start of previous word [with / without punctuation]
-    > b / B
+    ```
+ b / B
+    ```
 - Start of line
-    > 0
+    ```
+ 0
+    ```
 - First non-blank character of line
-    > ^ / _
+    ```
+    ^ / _
+    ```
 - End of line
-    > $  / g_
+    ```
+    $  / g_
+    ```
 - End of document
-    > G
+    ```
+ G
+    ```
 - Top, middle, bottom of screen
-    > H, M, L
+    ```
+ H, M, L
+    ```
 - Start, end of file
-    > gg, G
+    ```
+ gg, G
+    ```
 - Begin / Middle / End the screen
-    > g0 / gm / g$
+    ```
+ g0 / gm / g$
+    ```
 - Last change
-    > `.
+    ```
+ `.
+    ```
 - Last jump
-    > ``
+    ```
+ ``
+    ```
 - Older, newer :jump
-    > ^o, ^n
+    ```
+ ^o, ^n
+    ```
 - First non-blank character of the next line
-    > [Enter]
+    ```
+ [Enter]
+    ```
 - Next, previous empty line
-    > {, }
+    ```
+ {, }
+    ```
 - Next, previous sentence
-    > (, )
+    ```
+ (, )
+    ```
 - Align current line top, middle, bottom screen
-    > zt, zz, zb
+    ```
+ zt, zz, zb
+    ```
 
 ## Movement in Insert Mode
 - Left, Down, Up, Right
-    > M-h, M-j, M-k, M-l
+    ```
+ M-h, M-j, M-k, M-l
+    ```
 - Begin / End of line
-    > M-0 (zero) / M-A
+    ```
+ M-0 (zero) / M-A
+    ```
 - Add line
-    > M-o
+    ```
+ M-o
+    ```
 - Word Before / after
-    > M-b / M-w
+    ```
+ M-b / M-w
+    ```
 
 ## Visual mode
 - Start visual mode 
-    > v
+    ```
+ v
+    ```
 - Start visual mode with lines
-    > V
+    ```
+ V
+    ```
 - Switch between extremes of selected text
-    > o
+    ```
+ o
+    ```
 - Start visual block mode
-    > O
+    ```
+ O
+    ```
 - Mark a word
-    > aw
+    ```
+ aw
+    ```
 - Mark braces () block
-    > ab
+    ```
+ ab
+    ```
 - Mark brackets {} block
-    > aB
+    ```
+ aB
+    ```
 - Inner () block
-    > ib
+    ```
+ ib
+    ```
 - Inner {} block
-    > iB
+    ```
+ iB
+    ```
 - Exit visual mode
-    > Esc / C-c
+    ```
+ Esc / C-c
+    ```
 - Reselect visual 
-    > gv
+    ```
+ gv
+    ```
 
 ## Cut & Paste
 - Yank line
-    > yy
+    ```
+ yy
+    ```
 - Yank word
-    > yw
+    ```
+ yw
+    ```
 - Yank to the end of line
-    > y$
+    ```
+ y$
+    ```
 - Paste after cursor
-    > p
+    ```
+ p
+    ```
 - Paste before cursor
-    > P
+    ```
+ P
+    ```
 - Delete line
-    > dd
+    ```
+ dd
+    ```
 - Delete current word
-    > dw
+    ```
+ dw
+    ```
 - Delete character before / after cursor
-    > x / X
+    ```
+ x / X
+    ```
 - Show register contents
-    > :reg
+    ```
+ :reg
+    ```
 
 ## Other
 - Get manpage from command under cursor
-    > K
+    ```
+ K
+    ```
 - Apply format
-    > gq / gw (without move cursor)
+    ```
+ gq / gw (without move cursor)
+    ```
 - Center lines
-    > :ce
+    ```
+ :ce
+    ```
 - Align right lines
-    > :ri
+    ```
+ :ri
+    ```
 - Align left lines
-    > :le
+    ```
+ :le
+    ```
 
 ## Enter Insert Mode
 - Insert mode at cursor
-    > i
+    ```
+ i
+    ```
 - Insert at the beginning of the line
-    > I
+    ```
+ I
+    ```
 - Append after the cursor
-    > a
+    ```
+ a
+    ```
 - Append at the end of the line
-    > A
+    ```
+ A
+    ```
 - Append blank line below current
-    > o
+    ```
+ o
+    ```
 - Append blank line above current
-    > O
+    ```
+ O
+    ```
 - Append at the end of the word
-    > ea
+    ```
+ ea
+    ```
 - Exit insert mode
-    > Esc / C-c
+    ```
+ Esc / C-c
+    ```
 
 ## Visual Commands
 - Indent right
-    > \>
+    ```
+ \>
+    ```
 - Indent left
-    > <
+    ```
+ <
+    ```
 - Yank
-    > y
+    ```
+ y
+    ```
 - Delete
-    > d
+    ```
+ d
+    ```
 - switch case
-    > ~
+    ```
+ ~
+    ```
 
 ## Buffers
 - Edit file in new buffer
-    > :e <filename>
+    ```
+ :e <filename>
+    ```
 - Explore dir
-    > :e .
+    ```
+ :e .
+    ```
 - List buffers
-    > :ls (or :buffers)
+    ```
+ :ls (or :buffers)
+    ```
 - Next, previous buffer
-    > :bn, :bp
+    ```
+ :bn, :bp
+    ```
 - Close buffer
-    > :bd
+    ```
+ :bd
+    ```
 
 ## Windows
 - Open file and split window horizontally, vertically
-    > :sp <filename>, :vsp <filename>
+    ```
+ :sp <filename>, :vsp <filename>
+    ```
 - Split windows horizontally, vertically
-    > C-w s
+    ```
+ C-w s
+    ```
 - Switch between windows
-    > C-w w
+    ```
+ C-w w
+    ```
 - Quit a window
-    > C-w q
+    ```
+ C-w q
+    ```
 - Resize window (horizontal)
-    > C-w +/-/=
+    ```
+ C-w +/-/=
+    ```
 - Resize window (vertical)
-    > C-w </>/=
+    ```
+ C-w </>/=
+    ```
 - Maximize window(horizontal/vertical)
-    > C-w _/C-w |
+    ```
+    C-w _/C-w |
+    ```
 - Scroll bind
-    > :set scrollbind
+    ```
+ :set scrollbind
+    ```
 - Move window left/down/up/right
-    > C-w H/J/K/L
+    ```
+ C-w H/J/K/L
+    ```
 
 ## Tabs
 - New tab
-    > :tabnew <file>
+    ```
+ :tabnew <file>
+    ```
 - Next, previous tab
-    > :gt, gT
+    ```
+ :gt, gT
+    ```
 - Close tab
-    > :tabc
+    ```
+ :tabc
+    ```
 - Do to all tabs
-    > :tabdo <command>
+    ```
+ :tabdo <command>
+    ```
 - All buffers as tabs
-    > tab sball
+    ```
+ tab sball
+    ```
 - Close all tabs except current
-    > :tabonly
+    ```
+ :tabonly
+    ```
 
 ## Tags
 - Search tag
-    > :tag <tag>
+    ```
+ :tag <tag>
+    ```
 - Goto definition
-    > C-]
+    ```
+ C-]
+    ```
 - Go back from definition
-    > C-t
+    ```
+ C-t
+    ```
 - Show list
-    > :ts
+    ```
+ :ts
+    ```
 - Go to next/previous tag in list
-    > :tn / :tp
+    ```
+ :tn / :tp
+    ```
 - Go to the first / last function in list
-    > :tf / :tl
+    ```
+ :tf / :tl
+    ```
 
 ## Vimdiff
 - Get changes from other window into current
-    > do
+    ```
+ do
+    ```
 - Put changes from current window into the other
-    > dp
+    ```
+ dp
+    ```
 - Jump next / previous change
-    > ]c / [c
+    ```
+ ]c / [c
+    ```
 - Scrollbind
-    > :set (no)scrollbind
+    ```
+ :set (no)scrollbind
+    ```
 
 ## Editing
 - Replace single character
-    > r
+    ```
+ r
+    ```
 - Join line below to the current
-    > J
+    ```
+ J
+    ```
 - Change entire line
-    > cc
+    ```
+ cc
+    ```
 - Change word
-    > cw
+    ```
+ cw
+    ```
 - Change to the end of line
-    > c$
+    ```
+ c$
+    ```
 - Delete character and insert text
-    > s
+    ```
+ s
+    ```
 - Undo
-    > u
+    ```
+ u
+    ```
 - Redo
-    > U
+    ```
+ U
+    ```
 - Repeat las command
-    > .
+    ```
+ .
+    ```
 - Null register
-    > "_
+    ```
+    "_
+    ```
 - Delete character right/left
-    > x / X
+    ```
+ x / X
+    ```
 
 ## Exiting
 - Write
-    > :w
+    ```
+ :w
+    ```
 - Write and quit
-    > :wq / ZZ
+    ```
+ :wq / ZZ
+    ```
 - Quit if is saved
-    > :q
+    ```
+ :q
+    ```
 - Quit even is not saved
-    > :q! / ZQ
+    ```
+ :q! / ZQ
+    ```
 - Reload file from disk
-    > :e!
+    ```
+ :e!
+    ```
 
 ## Search / Replace
 - Search pattern
-    > /<pattern>
+    ```
+ /<pattern>
+    ```
 - Search backward for pattern
-    > ?<pattern>
+    ```
+ ?<pattern>
+    ```
 - Repeat search in same direction
-    > n
+    ```
+ n
+    ```
 - Repeat search in opposite direction
-    > N
+    ```
+ N
+    ```
 - Replace all <old> with <new> throughtout file
-    > %s/<old>/<new>/g
+    ```
+ %s/<old>/<new>/g
+    ```
 - Replace all <old> with <new> with confirmations
-    > %s/<old>/<new>/gc
+    ```
+ %s/<old>/<new>/gc
+    ```
 
 ## Options
 - Show line numbers
-    > :set [no]nu
+    ```
+ :set [no]nu
+    ```
 - Set relative line number
-    > :set [no]rnu
+    ```
+ :set [no]rnu
+    ```
 - Highlight matches
-    > :set [no]hls
+    ```
+ :set [no]hls
+    ```
 - Activate syntaxis
-    > :set syntax=<sintaxis>
+    ```
+ :set syntax=<sintaxis>
+    ```
 - Next / previous N character
-    > (f / F) N
+    ```
+ (f / F) N
+    ```
 - Search the left character to N to right / left
-    > (t / T) N
+    ```
+ (t / T) N
+    ```
 - Repeat f F t T / inverse direction
-    > ; / ,
+    ```
+ ; / ,
+    ```
 
 ## Folding
 - Set fold method
-    > :set fdm=[marker, manual, indent, syntax, expr]
+    ```
+ :set fdm=[marker, manual, indent, syntax, expr]
+    ```
 - Manual fold
-    > zf
+    ```
+ zf
+    ```
 - Open / close / switch fold
-    > zo / zc / za
+    ```
+ zo / zc / za
+    ```
 - Open / close / switch fold (all desdending levels)
-    > zO / zC / zA
+    ```
+ zO / zC / zA
+    ```
 - Move to next / previous fold
-    > zj / zk
+    ```
+ zj / zk
+    ```
 - Increase / decrease foldlevel by one
-    > zm / zr
+    ```
+ zm / zr
+    ```
 - Close / open all foldlevels
-    > zM / zR
+    ```
+ zM / zR
+    ```
 - Delete folder at cursor / all folders
-    > zd / zE
+    ```
+ zd / zE
+    ```
 - Move to start / end open fold
-    > [z / ]z
+    ```
+ [z / ]z
+    ```
 - Begin / end marks for marker method
-    > {{{ / }}}
+    ```
+ {{{ / }}}
+    ```
 - Save / restore markers
-    > :mkview <rev. num.> / :loadview <rev. num.>
+    ```
+ :mkview <rev. num.> / :loadview <rev. num.>
+    ```
 - Switch folding on or off
-    > zi
+    ```
+ zi
+    ```
 - Expands fold to reveal cursor
-    > zv
+    ```
+ zv
+    ```
 
 ## Help
 - Go to link
-    > C-]
+    ```
+ C-]
+    ```
 - Go to previous position
-    > C-t
+    ```
+ C-t
+    ```
