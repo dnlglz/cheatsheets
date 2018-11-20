@@ -132,7 +132,7 @@
 
 # Visual Commands
 - Indent right
-    > >
+    > \>
 - Indent left
     > <
 - Yank
