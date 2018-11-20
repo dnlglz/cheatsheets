@@ -1,24 +1,22 @@
 # Table of Contents
-[Movement](#movement)               
+[Movement](#movement)
 [Movement in Insert Mode](#movement-in-insert-mode)
-[Movement in Insert Mode](#movement-in-insert-mode)
-[Visual mode](#visual-mode)            
-[Cut & Paste](#cut-&-paste)            
-[Other](#other)                  
-[Enter Insert Mode](#enter-insert-mode)      
-[Visual Commands](#visual-commands)        
-[Buffers](#buffers)                
-[Windows](#windows)                
-[Tabs](#tabs)                   
-[Tags](#tags)                   
-[Vimdiff](#vimdiff)                
-[Editing](#editing)                
-[Exiting](#exiting)                
-[Search / Replace](#search--replace)       
-[Options](#options)                
-[Folding](#folding)                
-[Help](#help)                   
-
+[Visual mode](#visual-mode)
+[Cut & Paste](#cut-&-paste)
+[Other](#other)
+[Enter Insert Mode](#enter-insert-mode)
+[Visual Commands](#visual-commands)
+[Buffers](#buffers)
+[Windows](#windows)
+[Tabs](#tabs)
+[Tags](#tags)
+[Vimdiff](#vimdiff)
+[Editing](#editing)
+[Exiting](#exiting)
+[Search / Replace](#search--replace)
+[Options](#options)
+[Folding](#folding)
+[Help](#help)
 
 ## Movement
 - Left, down, up, right
@@ -57,16 +55,6 @@
     > (, )
 - Align current line top, middle, bottom screen
     > zt, zz, zb
-
-## Movement in Insert Mode
-- Left, Down, Up, Right
-    > M-h, M-j, M-k, M-l
-- Begin / End of line
-    > M-0 (zero) / M-A
-- Add line
-    > M-o
-- Word Before / after
-    > M-b / M-w
 
 ## Movement in Insert Mode
 - Left, Down, Up, Right
