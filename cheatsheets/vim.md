@@ -1,4 +1,25 @@
-# Movement
+# Table of Contents
+[Movement] (#movement)               
+[Movement in Insert Mode] (#movement-in-insert-mode)
+[Movement in Insert Mode] (#movement-in-insert-mode)
+[Visual mode] (#visual-mode)            
+[Cut & Paste] (#cut-&-paste)            
+[Other] (#other)                  
+[Enter Insert Mode] (#enter-insert-mode)      
+[Visual Commands] (#visual-commands)        
+[Buffers] (#buffers)                
+[Windows] (#windows)                
+[Tabs] (#tabs)                   
+[Tags] (#tags)                   
+[Vimdiff] (#vimdiff)                
+[Editing] (#editing)                
+[Exiting] (#exiting)                
+[Search / Replace] (#search-/-replace)       
+[Options] (#options)                
+[Folding] (#folding)                
+[Help] (#help)                   
+
+## Movement
 - Left, down, up, right
     > h, j, k, l
 - Start of next word [with / without punctuation]
@@ -36,7 +57,7 @@
 - Align current line top, middle, bottom screen
     > zt, zz, zb
 
-# Movement in Insert Mode
+## Movement in Insert Mode
 - Left, Down, Up, Right
     > M-h, M-j, M-k, M-l
 - Begin / End of line
@@ -46,7 +67,7 @@
 - Word Before / after
     > M-b / M-w
 
-# Movement in Insert Mode
+## Movement in Insert Mode
 - Left, Down, Up, Right
     > M-h, M-j, M-k, M-l
 - Begin / End of line
@@ -56,7 +77,7 @@
 - Word Before / after
     > M-b / M-w
 
-# Visual mode
+## Visual mode
 - Start visual mode 
     > v
 - Start visual mode with lines
@@ -80,7 +101,7 @@
 - Reselect visual 
     > gv
 
-# Cut & Paste
+## Cut & Paste
 - Yank line
     > yy
 - Yank word
@@ -100,7 +121,7 @@
 - Show register contents
     > :reg
 
-# Other
+## Other
 - Get manpage from command under cursor
     > K
 - Apply format
@@ -112,7 +133,7 @@
 - Align left lines
     > :le
 
-# Enter Insert Mode
+## Enter Insert Mode
 - Insert mode at cursor
     > i
 - Insert at the beginning of the line
@@ -130,7 +151,7 @@
 - Exit insert mode
     > Esc / C-c
 
-# Visual Commands
+## Visual Commands
 - Indent right
     > \>
 - Indent left
@@ -142,7 +163,7 @@
 - switch case
     > ~
 
-# Buffers
+## Buffers
 - Edit file in new buffer
     > :e <filename>
 - Explore dir
@@ -154,7 +175,7 @@
 - Close buffer
     > :bd
 
-# Windows
+## Windows
 - Open file and split window horizontally, vertically
     > :sp <filename>, :vsp <filename>
 - Split windows horizontally, vertically
@@ -174,7 +195,7 @@
 - Move window left/down/up/right
     > C-w H/J/K/L
 
-# Tabs
+## Tabs
 - New tab
     > :tabnew <file>
 - Next, previous tab
@@ -188,7 +209,7 @@
 - Close all tabs except current
     > :tabonly
 
-# Tags
+## Tags
 - Search tag
     > :tag <tag>
 - Goto definition
@@ -202,7 +223,7 @@
 - Go to the first / last function in list
     > :tf / :tl
 
-# Vimdiff
+## Vimdiff
 - Get changes from other window into current
     > do
 - Put changes from current window into the other
@@ -212,7 +233,7 @@
 - Scrollbind
     > :set (no)scrollbind
 
-# Editing
+## Editing
 - Replace single character
     > r
 - Join line below to the current
@@ -236,7 +257,7 @@
 - Delete character right/left
     > x / X
 
-# Exiting
+## Exiting
 - Write
     > :w
 - Write and quit
@@ -248,7 +269,7 @@
 - Reload file from disk
     > :e!
 
-# Search / Replace
+## Search / Replace
 - Search pattern
     > /<pattern>
 - Search backward for pattern
@@ -262,7 +283,7 @@
 - Replace all <old> with <new> with confirmations
     > %s/<old>/<new>/gc
 
-# Options
+## Options
 - Show line numbers
     > :set [no]nu
 - Set relative line number
@@ -278,7 +299,7 @@
 - Repeat f F t T / inverse direction
     > ; / ,
 
-# Folding
+## Folding
 - Set fold method
     > :set fdm=[marker, manual, indent, syntax, expr]
 - Manual fold
@@ -306,7 +327,7 @@
 - Expands fold to reveal cursor
     > zv
 
-# Help
+## Help
 - Go to link
     > C-]
 - Go to previous position
