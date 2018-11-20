@@ -1,11 +1,11 @@
 # Table of Contents
 - [Create](#create)        
-- [Local Changes](#local changes) 
-- [Commit History](#commit history)
+- [Local Changes](#local-changes) 
+- [Commit History](#commit-history)
 - [Tools](#tools)         
-- [Branches & Tags](#branches tags) 
-- [Update & Publish](#update publish)
-- [Merge & Rebase](#merge rebase)  
+- [Branches & Tags](#branches--tags) 
+- [Update & Publish](#update--publish)
+- [Merge & Rebase](#merge--rebase)  
 - [Undo](#undo)          
 
 ## Create
