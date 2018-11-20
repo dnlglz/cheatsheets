@@ -1,2 +1,3 @@
 # cheatsheets
-Linux and development related cheatsheets 
+Available cheat sheets:
+- [Vim](cheatsheets/vim.md)
