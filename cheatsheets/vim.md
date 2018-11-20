@@ -14,7 +14,7 @@
 [Vimdiff](#vimdiff)                
 [Editing](#editing)                
 [Exiting](#exiting)                
-[Search / Replace](#search-/-replace)       
+[Search / Replace](#search--replace)       
 [Options](#options)                
 [Folding](#folding)                
 [Help](#help)                   
